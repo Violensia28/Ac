@@ -12,6 +12,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-12T09:59:09.038Z"
+    },
+    {
+      "id": "mkazzstrdimlgw3xm3",
+      "category": "Light",
+      "location": "Phiolip",
+      "brand": "",
+      "model": "20 watt",
+      "subtype": "Lampu Jalan",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-12T10:06:15.471Z"
     }
   ],
   "schedules": []
