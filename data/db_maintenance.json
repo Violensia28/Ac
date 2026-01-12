@@ -27,5 +27,14 @@
       "updatedAt": "2026-01-12T10:06:15.471Z"
     }
   ],
-  "schedules": []
+  "schedules": [
+    {
+      "id": "mkb00ztv3x1tqybs7fx",
+      "desc": "bantuin joshua install pc",
+      "time": "17:07",
+      "prio": "Normal",
+      "completed": false,
+      "date": "2026-01-12"
+    }
+  ]
 }
