@@ -1,4 +1,18 @@
 {
-  "assets": [],
+  "assets": [
+    {
+      "id": "mkazqnsdi89nfle653j",
+      "category": "AC",
+      "location": "Lantai 1 kasubag umum",
+      "brand": "Mc quay",
+      "model": "5",
+      "subtype": "Central",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-12T09:59:09.038Z"
+    }
+  ],
   "schedules": []
 }
