@@ -1260,6 +1260,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:56:09.087Z"
+    },
+    {
+      "id": "mkdhnz8m8kmbsu8cin3",
+      "category": "AC",
+      "location": "Ruang resepsionis ",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:56:29.350Z"
     }
   ],
   "schedules": [
