@@ -883,6 +883,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:25:44.549Z"
+    },
+    {
+      "id": "mkdgkz4k8uwakm5va32",
+      "category": "AC",
+      "location": "AUDITORIUM ",
+      "brand": "Lg",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:26:09.620Z"
     }
   ],
   "schedules": [
