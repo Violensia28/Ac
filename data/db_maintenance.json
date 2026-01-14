@@ -974,6 +974,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:44:39.401Z"
+    },
+    {
+      "id": "mkdh9kiuw7a7xauj2n",
+      "category": "AC",
+      "location": "Ruang arsip",
+      "brand": "Lg inverter",
+      "model": " ",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:45:17.094Z"
     }
   ],
   "schedules": [
