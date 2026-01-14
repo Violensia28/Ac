@@ -1130,6 +1130,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:51:33.795Z"
+    },
+    {
+      "id": "mkdhi6hpszvpfpjxyy",
+      "category": "AC",
+      "location": "Ruang dokter ",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Split Wall",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:51:58.813Z"
     }
   ],
   "schedules": [
