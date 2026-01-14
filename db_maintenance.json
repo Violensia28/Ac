@@ -562,15 +562,15 @@
     {
       "id": "mkdfqgwdktlns9daxkp",
       "category": "AC",
-      "location": "Ruang kalan mcquay",
+      "location": "Ruang kalan",
       "brand": "Mcquay",
       "model": "5 pk",
       "subtype": "Central",
-      "condition": "Perlu Servis",
-      "issue": "Service ",
+      "condition": "Perbaikan",
+      "issue": "Service",
       "installDate": "",
       "serviceDate": "",
-      "updatedAt": "2026-01-14T03:02:26.317Z"
+      "updatedAt": "2026-01-14T14:00:14.078Z"
     },
     {
       "id": "mkdfr04kcjx1ibq2x7",
