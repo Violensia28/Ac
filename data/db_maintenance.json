@@ -116,6 +116,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:22:33.809Z"
+    },
+    {
+      "id": "mkdecy0408wfeno5go3b",
+      "category": "AC",
+      "location": "Depan ruang rapat Aceh 3 lt 4",
+      "brand": "Lg",
+      "model": "5",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:23:55.684Z"
     }
   ],
   "schedules": [
