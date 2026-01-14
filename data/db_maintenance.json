@@ -857,6 +857,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:23:26.526Z"
+    },
+    {
+      "id": "mkdgjyfipd232lfkeg",
+      "category": "AC",
+      "location": "Auditorium ",
+      "brand": "LG INVERTER ",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:25:22.062Z"
     }
   ],
   "schedules": [
