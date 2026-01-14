@@ -142,6 +142,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:26:02.807Z"
+    },
+    {
+      "id": "mkdeggoyyb1fvamkowq",
+      "category": "AC",
+      "location": "Ruang kerja Aceh 3 lt4",
+      "brand": "Gree",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:26:39.874Z"
     }
   ],
   "schedules": [
