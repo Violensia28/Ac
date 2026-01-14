@@ -1221,6 +1221,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:55:04.720Z"
+    },
+    {
+      "id": "mkdhmqisc2aoerdx3sb",
+      "category": "AC",
+      "location": "Ruang perpus ",
+      "brand": "Mcquay",
+      "model": "5",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:55:31.396Z"
     }
   ],
   "schedules": [
