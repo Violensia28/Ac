@@ -935,6 +935,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:38:59.603Z"
+    },
+    {
+      "id": "mkdh33768zxl2ljg25q",
+      "category": "Light",
+      "location": "Auditorium ",
+      "brand": "Downlight ",
+      "model": "12 watt",
+      "subtype": "Downlight",
+      "condition": "Rusak",
+      "issue": "4 pcs",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:40:14.707Z"
     }
   ],
   "schedules": [
