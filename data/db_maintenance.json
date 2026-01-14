@@ -610,6 +610,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:05:02.844Z"
+    },
+    {
+      "id": "mkdfusrpyskx5a5dry9",
+      "category": "AC",
+      "location": "Ruang tu ,",
+      "brand": "Mcquay",
+      "model": "3 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:05:48.326Z"
     }
   ],
   "schedules": [
