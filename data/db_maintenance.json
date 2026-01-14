@@ -818,6 +818,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:22:19.422Z"
+    },
+    {
+      "id": "mkdggizvbldrfopa4xv",
+      "category": "AC",
+      "location": "Auditorium ",
+      "brand": "Daikin",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:22:42.092Z"
     }
   ],
   "schedules": [
