@@ -233,6 +233,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:31:27.122Z"
+    },
+    {
+      "id": "mkdenxeq89g5mku2blx",
+      "category": "AC",
+      "location": "Ruang Kabid Aceh 2 lt4",
+      "brand": "Lg",
+      "model": "5pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Kedap kedip dan minta tambah freon ",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:32:28.130Z"
     }
   ],
   "schedules": [
