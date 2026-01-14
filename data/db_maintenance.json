@@ -675,6 +675,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:15:04.817Z"
+    },
+    {
+      "id": "mkdg7gfpjs7i232fr7",
+      "category": "AC",
+      "location": "Ruang staff sdm",
+      "brand": "Mcquay",
+      "model": "5pk",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:15:38.869Z"
     }
   ],
   "schedules": [
