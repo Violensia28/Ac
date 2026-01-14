@@ -701,6 +701,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:17:54.198Z"
+    },
+    {
+      "id": "mkdgaz9gps79hr8wxdd",
+      "category": "AC",
+      "location": "Ruang arsip sdm",
+      "brand": "Mcquay",
+      "model": "3 pk",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "Mati total",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:18:23.236Z"
     }
   ],
   "schedules": [
