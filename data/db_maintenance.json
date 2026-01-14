@@ -870,6 +870,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:25:22.062Z"
+    },
+    {
+      "id": "mkdgkfs3mskqg8dys3",
+      "category": "AC",
+      "location": "Auditorium ",
+      "brand": "LG INVERTER ",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:25:44.549Z"
     }
   ],
   "schedules": [
