@@ -389,6 +389,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:47:31.349Z"
+    },
+    {
+      "id": "mkdf89yvvquo8j56ifo",
+      "category": "AC",
+      "location": "Ruang arsip lantai 3",
+      "brand": "Lg inverter",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:48:17.528Z"
     }
   ],
   "schedules": [
