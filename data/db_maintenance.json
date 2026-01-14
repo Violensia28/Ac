@@ -1338,6 +1338,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T06:08:17.941Z"
+    },
+    {
+      "id": "mkdmhvnzqtfr78v4vs",
+      "category": "AC",
+      "location": "Dharma wanita",
+      "brand": "Daikin",
+      "model": "1 pk",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T06:11:42.864Z"
     }
   ],
   "schedules": [
