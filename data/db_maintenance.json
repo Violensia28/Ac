@@ -1039,6 +1039,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:47:12.836Z"
+    },
+    {
+      "id": "mkdhcwughydg33ldycq",
+      "category": "AC",
+      "location": "Ruang arsip",
+      "brand": "Daikin",
+      "model": "2 pk",
+      "subtype": "Split Wall",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:47:53.032Z"
     }
   ],
   "schedules": [
