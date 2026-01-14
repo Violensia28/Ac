@@ -311,6 +311,32 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:38:25.695Z"
+    },
+    {
+      "id": "mkdeyqk2kgd5vswwu7l",
+      "category": "Light",
+      "location": "Ruang kerja Aceh 2",
+      "brand": "TL 40",
+      "model": "40",
+      "subtype": "TL / Neon",
+      "condition": "Rusak",
+      "issue": "Butuh 12  mati total. 40 watt /pcs ",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:40:52.466Z"
+    },
+    {
+      "id": "mkdf3p2b99yftleme6",
+      "category": "AC",
+      "location": "Depan tangga darurat lt3",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "Tidak hidup",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:44:43.811Z"
     }
   ],
   "schedules": [
@@ -319,7 +345,7 @@
       "desc": "Cek AC dan lampu",
       "time": "09:00",
       "prio": "Normal",
-      "completed": false,
+      "completed": true,
       "date": "2026-01-14"
     },
     {
