@@ -584,6 +584,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:02:51.237Z"
+    },
+    {
+      "id": "mkdfryx6remas5cvw7d",
+      "category": "AC",
+      "location": "Ruang rapat kalan (depan kalan)",
+      "brand": "Daikin",
+      "model": "3 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:03:36.330Z"
     }
   ],
   "schedules": [
