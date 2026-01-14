@@ -1065,6 +1065,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:48:27.047Z"
+    },
+    {
+      "id": "mkdhejttf2my78p14vu",
+      "category": "AC",
+      "location": "Ruang fitness",
+      "brand": "Panasonic ",
+      "model": "2pk",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:49:09.473Z"
     }
   ],
   "schedules": [
