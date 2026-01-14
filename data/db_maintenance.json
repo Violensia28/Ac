@@ -1234,6 +1234,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:55:31.396Z"
+    },
+    {
+      "id": "mkdhn4rr7tipis0g40e",
+      "category": "AC",
+      "location": "Ruang perpus",
+      "brand": "Panasonic ",
+      "model": "2",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:55:49.863Z"
     }
   ],
   "schedules": [
