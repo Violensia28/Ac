@@ -532,6 +532,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:57:52.361Z"
+    },
+    {
+      "id": "mkdfoaoomj21ls5o0e",
+      "category": "Light",
+      "location": "Lokasi lantai 3",
+      "brand": "Lampu TL 40 watt",
+      "model": "40 watt",
+      "subtype": "TL / Neon",
+      "condition": "Rusak",
+      "issue": "22 mati total perlu ganti",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:00:44.953Z"
     }
   ],
   "schedules": [
