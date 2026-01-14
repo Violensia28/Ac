@@ -181,6 +181,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:27:45.551Z"
+    },
+    {
+      "id": "mkdeiec3fb0hawgp8v",
+      "category": "AC",
+      "location": "Ruang Kabid Aceh 3",
+      "brand": "Mcquay",
+      "model": "5 PK",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:28:10.131Z"
     }
   ],
   "schedules": [
