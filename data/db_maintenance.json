@@ -649,6 +649,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:13:33.767Z"
+    },
+    {
+      "id": "mkdg57ipva7e5rsa7r9",
+      "category": "AC",
+      "location": "Ruang rapat kasetlan",
+      "brand": "Mcquay",
+      "model": "5 ",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:13:54.001Z"
     }
   ],
   "schedules": [
