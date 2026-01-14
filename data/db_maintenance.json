@@ -688,6 +688,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:15:38.869Z"
+    },
+    {
+      "id": "mkdgacutnuio0fk12pn",
+      "category": "AC",
+      "location": "Ruang rapat sdm",
+      "brand": "Panasonic ",
+      "model": "1 ",
+      "subtype": "Split Wall",
+      "condition": "Perlu Servis",
+      "issue": "Service ",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:17:54.198Z"
     }
   ],
   "schedules": [
