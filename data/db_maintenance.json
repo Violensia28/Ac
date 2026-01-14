@@ -25,6 +25,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-12T10:06:15.471Z"
+    },
+    {
+      "id": "mkde1feintydjnw9uc",
+      "category": "AC",
+      "location": "Ruang lift ",
+      "brand": "Panasonic ",
+      "model": "2 pk",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:14:58.362Z"
     }
   ],
   "schedules": [
