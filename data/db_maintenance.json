@@ -623,6 +623,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:05:48.326Z"
+    },
+    {
+      "id": "mkdg2zszj3zv4nlby7q",
+      "category": "AC",
+      "location": "Ruang tu",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Split Wall",
+      "condition": "Perlu Servis",
+      "issue": "Bocor",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:12:10.693Z"
     }
   ],
   "schedules": [
