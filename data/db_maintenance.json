@@ -948,6 +948,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:40:14.707Z"
+    },
+    {
+      "id": "mkdh49eaypglugvg2s",
+      "category": "Light",
+      "location": "TL 20 WATT DEKAT TANGGA LANTAI 2 TANGGA DARURAT",
+      "brand": "TL 20",
+      "model": "20 watt",
+      "subtype": "TL / Neon",
+      "condition": "Rusak",
+      "issue": "2 pcs",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:41:09.394Z"
     }
   ],
   "schedules": [
