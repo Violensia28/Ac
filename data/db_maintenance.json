@@ -298,6 +298,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:36:14.912Z"
+    },
+    {
+      "id": "mkdevlb3bt2v8jlyor4",
+      "category": "AC",
+      "location": "Ruang rapat Aceh 2 lt4 4",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Perlu service MCB mati total",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:38:25.695Z"
     }
   ],
   "schedules": [
