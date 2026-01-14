@@ -909,6 +909,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:27:15.859Z"
+    },
+    {
+      "id": "mkdh0jch5ibb90es85h",
+      "category": "Light",
+      "location": "Lantai 2",
+      "brand": "TL 40 ",
+      "model": "40 watt",
+      "subtype": "TL / Neon",
+      "condition": "Rusak",
+      "issue": "5 pcs",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:38:15.665Z"
     }
   ],
   "schedules": [
