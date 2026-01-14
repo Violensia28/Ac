@@ -363,6 +363,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:46:09.053Z"
+    },
+    {
+      "id": "mkdf6elhdbyu1n3rvv",
+      "category": "AC",
+      "location": "Ruang rapat lt besar lt 3",
+      "brand": "Daikin",
+      "model": "3 pj",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:46:50.213Z"
     }
   ],
   "schedules": [
