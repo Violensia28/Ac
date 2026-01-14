@@ -766,6 +766,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:20:31.355Z"
+    },
+    {
+      "id": "mkdgelgxola07cfbt2b",
+      "category": "AC",
+      "location": "Lorong depan tu",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:21:11.985Z"
     }
   ],
   "schedules": [
