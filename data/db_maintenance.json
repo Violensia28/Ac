@@ -1,32 +1,6 @@
 {
   "assets": [
     {
-      "id": "mkazqnsdi89nfle653j",
-      "category": "AC",
-      "location": "-",
-      "brand": "-",
-      "model": "-",
-      "subtype": "Central",
-      "condition": "Normal",
-      "issue": "bunyi dan ber air atau bocor\n\n Saran Perbaikan:\nCek saluran pembuangan (drain pipe), tersumbat lendir. Vacuum drain atau semprot air tekanan rendah. Cek kemiringan instalasi.",
-      "installDate": "",
-      "serviceDate": "2026-01-12",
-      "updatedAt": "2026-01-14T02:28:39.300Z"
-    },
-    {
-      "id": "mkazzstrdimlgw3xm3",
-      "category": "Light",
-      "location": "-",
-      "brand": "",
-      "model": "20 watt",
-      "subtype": "Lampu Jalan",
-      "condition": "Normal",
-      "issue": "",
-      "installDate": "",
-      "serviceDate": "",
-      "updatedAt": "2026-01-14T02:28:52.376Z"
-    },
-    {
       "id": "mkde1feintydjnw9uc",
       "category": "AC",
       "location": "Ruang lift ",
