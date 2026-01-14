@@ -636,6 +636,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:12:10.693Z"
+    },
+    {
+      "id": "mkdg4rwnm0bny38ex2",
+      "category": "AC",
+      "location": "Ruang kasetlan",
+      "brand": "Mcquay",
+      "model": "3 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:13:33.767Z"
     }
   ],
   "schedules": [
