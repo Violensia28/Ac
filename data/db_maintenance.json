@@ -1026,6 +1026,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:46:48.159Z"
+    },
+    {
+      "id": "mkdhc1twpn50732wa6k",
+      "category": "AC",
+      "location": "Ruang arsip",
+      "brand": "Lg ",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "Rusak total",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:47:12.836Z"
     }
   ],
   "schedules": [
