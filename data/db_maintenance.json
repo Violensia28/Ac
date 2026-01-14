@@ -350,6 +350,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:45:34.017Z"
+    },
+    {
+      "id": "mkdf5iu53kphealovd5",
+      "category": "AC",
+      "location": "Ruang tenis meja",
+      "brand": "Gree",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:46:09.053Z"
     }
   ],
   "schedules": [
