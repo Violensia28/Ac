@@ -896,6 +896,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:26:09.620Z"
+    },
+    {
+      "id": "mkdglm5jnzduh5an16",
+      "category": "AC",
+      "location": "Auditorium ",
+      "brand": "LG",
+      "model": "5 pk",
+      "subtype": "Split Wall",
+      "condition": "Perlu Servis",
+      "issue": "Sensor berkedip kedip",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:26:39.464Z"
     }
   ],
   "schedules": [
