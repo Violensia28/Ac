@@ -1247,6 +1247,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:55:49.863Z"
+    },
+    {
+      "id": "mkdhnjlrdte41vi9oik",
+      "category": "AC",
+      "location": "Ruang pik",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:56:09.087Z"
     }
   ],
   "schedules": [
