@@ -506,6 +506,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:54:20.510Z"
+    },
+    {
+      "id": "mkdfhop72z08o9xe1c3",
+      "category": "AC",
+      "location": "Depan ruang Kabid Aceh 1 dekat pintu kaca",
+      "brand": "Mcquay ",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Maintenance dan service",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:55:36.523Z"
     }
   ],
   "schedules": [
