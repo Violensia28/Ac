@@ -428,6 +428,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:49:29.647Z"
+    },
+    {
+      "id": "mkdfaybwo3c2ikw0cx",
+      "category": "AC",
+      "location": "Ruang rapat Aceh 1 lt3 ",
+      "brand": "Mcquay ",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:50:22.412Z"
     }
   ],
   "schedules": [
