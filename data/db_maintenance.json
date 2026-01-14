@@ -792,6 +792,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:21:32.497Z"
+    },
+    {
+      "id": "mkdgfjvzuvblv02qhse",
+      "category": "AC",
+      "location": "Ruang vvip",
+      "brand": "Mcquay",
+      "model": "3pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:21:56.592Z"
     }
   ],
   "schedules": [
