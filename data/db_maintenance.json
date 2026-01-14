@@ -597,6 +597,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:03:36.330Z"
+    },
+    {
+      "id": "mkdfttob54vtlkvogom",
+      "category": "AC",
+      "location": "Ruang rapat kalan ",
+      "brand": "Panasonic ",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:05:02.844Z"
     }
   ],
   "schedules": [
