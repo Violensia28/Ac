@@ -740,6 +740,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:19:09.851Z"
+    },
+    {
+      "id": "mkdgcotwvtl7hvsvy5",
+      "category": "AC",
+      "location": "Lorong lantai 2 ",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:19:43.028Z"
     }
   ],
   "schedules": [
