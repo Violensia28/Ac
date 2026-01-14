@@ -909,6 +909,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:26:39.464Z"
+    },
+    {
+      "id": "mkdgme8jfh3a40nz53",
+      "category": "AC",
+      "location": "Auditorium ",
+      "brand": "LG",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Lampu berkedip kedip perbaikan",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:27:15.859Z"
     }
   ],
   "schedules": [
