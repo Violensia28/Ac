@@ -1000,6 +1000,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:45:33.322Z"
+    },
+    {
+      "id": "mkdhadiv83g5az5r7zd",
+      "category": "AC",
+      "location": "Ruang arsip",
+      "brand": "Lg inverter ",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "Rusak total",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:45:54.679Z"
     }
   ],
   "schedules": [
