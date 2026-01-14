@@ -1208,6 +1208,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:54:43.452Z"
+    },
+    {
+      "id": "mkdhm5xrgo3ukyhlwu",
+      "category": "AC",
+      "location": "Ruang rapat kaca lt 1",
+      "brand": "Mcquay",
+      "model": "3:0)",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:55:04.720Z"
     }
   ],
   "schedules": [
