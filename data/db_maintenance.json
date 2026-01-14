@@ -805,6 +805,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:21:56.592Z"
+    },
+    {
+      "id": "mkdgg1i65koc1czbev5",
+      "category": "AC",
+      "location": "Ruang vvip",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:22:19.422Z"
     }
   ],
   "schedules": [
