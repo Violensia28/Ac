@@ -90,6 +90,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:20:04.468Z"
+    },
+    {
+      "id": "mkde98n7ge14gacbihi",
+      "category": "Light",
+      "location": "Depan toilet lantai 4",
+      "brand": "TL 20",
+      "model": "20 watt",
+      "subtype": "TL / Neon",
+      "condition": "Rusak",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:21:02.851Z"
     }
   ],
   "schedules": [
