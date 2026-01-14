@@ -454,6 +454,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:51:49.740Z"
+    },
+    {
+      "id": "mkdfdp62pmdobtahpjn",
+      "category": "AC",
+      "location": "Ruang kerja Aceh 1",
+      "brand": "Mcquay",
+      "model": "3 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Servis",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:52:30.506Z"
     }
   ],
   "schedules": [
