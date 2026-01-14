@@ -129,6 +129,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:23:55.684Z"
+    },
+    {
+      "id": "mkdefo3b2rdzrtelvdd",
+      "category": "Light",
+      "location": "Aceh 3 lantai 4 ruang kerja (13pcs)",
+      "brand": "TL 40",
+      "model": "40 watt",
+      "subtype": "TL / Neon",
+      "condition": "Rusak",
+      "issue": "Butuh 13 pcs",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:26:02.807Z"
     }
   ],
   "schedules": [
