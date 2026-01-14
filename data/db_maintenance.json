@@ -558,6 +558,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:01:48.481Z"
+    },
+    {
+      "id": "mkdfqgwdktlns9daxkp",
+      "category": "AC",
+      "location": "Ruang kalan mcquay",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service ",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:02:26.317Z"
     }
   ],
   "schedules": [
