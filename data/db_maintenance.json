@@ -922,6 +922,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:38:15.665Z"
+    },
+    {
+      "id": "mkdh1h8zr6172fkz0e",
+      "category": "Light",
+      "location": "Lantai 2",
+      "brand": "TL 20",
+      "model": "20 watt ",
+      "subtype": "TL / Neon",
+      "condition": "Rusak",
+      "issue": "2 pcs",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:38:59.603Z"
     }
   ],
   "schedules": [
