@@ -415,6 +415,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:48:43.230Z"
+    },
+    {
+      "id": "mkdf9tm7g60pi9ku6ag",
+      "category": "AC",
+      "location": "Ruang staff hukum",
+      "brand": "Panasonic ",
+      "model": "5pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:49:29.647Z"
     }
   ],
   "schedules": [
