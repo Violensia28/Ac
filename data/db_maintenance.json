@@ -493,6 +493,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:53:35.544Z"
+    },
+    {
+      "id": "mkdfg21q9q09uzswh0u",
+      "category": "AC",
+      "location": "Depan ruang Kabid Aceh 1 lantai 3",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Service+ tambah freon",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:54:20.510Z"
     }
   ],
   "schedules": [
