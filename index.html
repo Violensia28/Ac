@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechManager: Maintenance System v5.0</title>
+    <title>TechManager: Maintenance System v6.0</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -37,7 +37,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center gap-3">
                     <i class="fa-solid fa-screwdriver-wrench text-primary text-2xl"></i>
-                    <span class="font-bold text-xl tracking-tight text-slate-800">TechManager <span class="text-xs bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full">v5.0</span></span>
+                    <span class="font-bold text-xl tracking-tight text-slate-800">TechManager <span class="text-xs bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full">v6.0</span></span>
                 </div>
                 <div class="flex items-center gap-2">
                     <button onclick="app.syncData()" id="btn-sync" class="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium transition flex items-center gap-2">
@@ -95,7 +95,7 @@
                     <i class="fa-solid fa-list-check mr-2"></i> Pilih
                 </button>
                 <button onclick="ui.showExportMenu()" class="flex-1 md:flex-none px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-medium transition shadow-sm flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-file-export"></i> Export
+                    <i class="fa-solid fa-file-export"></i> Export Data
                 </button>
                 <button onclick="ui.openModal()" class="flex-1 md:flex-none px-6 py-2.5 bg-primary hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition shadow-md shadow-blue-500/30">
                     <i class="fa-solid fa-plus mr-2"></i> Baru
@@ -243,7 +243,7 @@
             </div>
 
             <div class="overflow-y-auto p-0 flex-1">
-                <table class="w-full text-left text-sm">
+                <table class="w-full text-left text-sm" id="analytics-table">
                     <thead class="bg-slate-50 text-slate-500 uppercase text-xs sticky top-0 shadow-sm z-10">
                         <tr>
                             <th class="px-6 py-3 font-semibold">Lokasi</th>
@@ -257,7 +257,10 @@
                     <tbody id="analytics-body" class="divide-y divide-slate-100"></tbody>
                 </table>
             </div>
-             <div class="p-4 bg-slate-50 border-t border-slate-200 text-right">
+             <div class="p-4 bg-slate-50 border-t border-slate-200 flex justify-between items-center">
+                <button onclick="ui.showAnalyticsExportMenu()" class="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg text-sm font-medium shadow-sm transition">
+                    <i class="fa-solid fa-file-export mr-2"></i>Export Analisa
+                </button>
                 <button onclick="ui.closeModal('modal-analytics')" class="px-4 py-2 bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-lg text-sm font-medium">Tutup</button>
             </div>
         </div>
@@ -402,23 +405,15 @@
                     return matchSearch && matchCat;
                 });
 
-                // --- DASHBOARD STATS LOGIC (UPDATED V5) ---
+                // Stats Logic
                 const all = state.data.assets;
                 const countNormal = all.filter(a => a.condition === 'Normal').length;
                 const countRusak = all.filter(a => a.condition === 'Rusak' || a.condition === 'Disposal').length;
-                const countServis = all.filter(a => a.condition === 'Perbaikan').length; // Assuming 'Perbaikan' is service
                 
-                // Top Calculator Helper
                 const getTop = (arr) => {
                     if(arr.length === 0) return {name:'-', count:0};
-                    const map = {};
-                    let max = 0, name = '-';
-                    arr.forEach(i => {
-                         const val = (i||'').trim();
-                         if(!val) return;
-                         map[val] = (map[val]||0)+1; 
-                         if(map[val]>max) { max=map[val]; name=val; }
-                    });
+                    const map = {}; let max = 0, name = '-';
+                    arr.forEach(i => { const val = (i||'').trim(); if(!val) return; map[val] = (map[val]||0)+1; if(map[val]>max) { max=map[val]; name=val; } });
                     return {name, count: max};
                 };
 
@@ -427,19 +422,13 @@
 
                 document.getElementById('stat-total').innerText = all.length;
                 document.getElementById('stat-total-desc').innerText = `Update: ${new Date().toLocaleDateString()}`;
-                
                 document.getElementById('stat-normal').innerText = countNormal;
-                document.getElementById('stat-rusak').innerText = countRusak; // Rusak + Disposal
-                
-                // Locations
+                document.getElementById('stat-rusak').innerText = countRusak;
                 document.getElementById('stat-loc').innerText = state.ui.locations.size;
                 document.getElementById('stat-loc-desc').innerText = `Terbanyak: ${topLoc.name} (${topLoc.count})`;
-
-                // Brands
                 document.getElementById('stat-brand').innerText = state.ui.brands.size;
                 document.getElementById('stat-brand-desc').innerText = `Top: ${topBrand.name}`;
 
-                // --- TABLE RENDER ---
                 if (filtered.length === 0) {
                     document.getElementById('empty-state').classList.remove('hidden');
                     return;
@@ -494,18 +483,12 @@
 
                 // 1. Group Data
                 const groups = {};
-                // Helper for top bad location logic
-                const locIssues = {}; 
-                const brandCounts = {};
+                const locIssues = {}; const brandCounts = {};
 
                 state.data.assets.forEach(a => {
-                    // Global stats calculation for modal top bar
-                    if(a.condition !== 'Normal') {
-                        locIssues[a.location] = (locIssues[a.location] || 0) + 1;
-                    }
+                    if(a.condition !== 'Normal') locIssues[a.location] = (locIssues[a.location] || 0) + 1;
                     brandCounts[a.brand] = (brandCounts[a.brand] || 0) + 1;
 
-                    // Filtering for table
                     if (cat !== 'All' && a.category !== cat) return;
                     
                     const loc = (a.location || 'Tanpa Lokasi').trim();
@@ -520,19 +503,12 @@
                     else groups[loc][brand].servis++;
                 });
 
-                // Update Modal Top Stats
                 const getTopKey = (obj) => Object.keys(obj).reduce((a, b) => obj[a] > obj[b] ? a : b, '-');
-                const topBadLoc = getTopKey(locIssues);
-                const topBrand = getTopKey(brandCounts);
+                document.getElementById('an-top-bad-loc').innerText = getTopKey(locIssues);
+                document.getElementById('an-top-bad-loc-count').innerText = (locIssues[getTopKey(locIssues)] || 0) + ' aset bermasalah';
+                document.getElementById('an-top-brand').innerText = getTopKey(brandCounts);
+                document.getElementById('an-top-brand-count').innerText = (brandCounts[getTopKey(brandCounts)] || 0) + ' unit total';
 
-                document.getElementById('an-top-bad-loc').innerText = topBadLoc;
-                document.getElementById('an-top-bad-loc-count').innerText = (locIssues[topBadLoc] || 0) + ' aset bermasalah';
-                
-                document.getElementById('an-top-brand').innerText = topBrand;
-                document.getElementById('an-top-brand-count').innerText = (brandCounts[topBrand] || 0) + ' unit total';
-
-
-                // 2. Render Table
                 const locKeys = Object.keys(groups).sort();
                 if (locKeys.length === 0) {
                     tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-slate-400">Tidak ada data untuk kategori ini.</td></tr>`;
@@ -558,6 +534,78 @@
                         tbody.appendChild(tr);
                     });
                 });
+            },
+
+            // --- V6.0: NEW ANALYTICS EXPORT FUNCTION ---
+            exportAnalytics: (type) => {
+                const cat = document.getElementById('analytics-cat').value;
+                const timestamp = new Date().toISOString().slice(0,10);
+                
+                // Regenerate grouped data purely for export
+                const groups = {};
+                state.data.assets.forEach(a => {
+                    if (cat !== 'All' && a.category !== cat) return;
+                    const loc = (a.location || 'Tanpa Lokasi').trim();
+                    const brand = (a.brand || 'Tanpa Merek').trim();
+                    if (!groups[loc]) groups[loc] = {};
+                    if (!groups[loc][brand]) groups[loc][brand] = { total:0, normal:0, rusak:0, servis:0 };
+                    groups[loc][brand].total++;
+                    if (a.condition === 'Normal') groups[loc][brand].normal++;
+                    else if (a.condition === 'Rusak' || a.condition === 'Disposal') groups[loc][brand].rusak++;
+                    else groups[loc][brand].servis++;
+                });
+
+                if (type === 'excel') {
+                    const rows = [];
+                    Object.keys(groups).sort().forEach(loc => {
+                        Object.keys(groups[loc]).sort().forEach(brand => {
+                            const d = groups[loc][brand];
+                            rows.push({
+                                "Lokasi": loc, "Merek": brand, "Total Unit": d.total, 
+                                "Kondisi Bagus": d.normal, "Rusak Berat": d.rusak, "Perlu Servis": d.servis
+                            });
+                        });
+                    });
+                    const ws = XLSX.utils.json_to_sheet(rows);
+                    const wb = XLSX.utils.book_new();
+                    XLSX.utils.book_append_sheet(wb, ws, "Analisa");
+                    XLSX.writeFile(wb, `Analisa_Aset_${cat}_${timestamp}.xlsx`);
+                }
+                else if (type === 'pdf') {
+                    const { jsPDF } = window.jspdf;
+                    const doc = new jsPDF();
+                    doc.text(`Laporan Analisa Aset (${cat})`, 14, 20);
+                    doc.setFontSize(10); doc.text(`Tanggal: ${timestamp}`, 14, 26);
+                    
+                    const tableRows = [];
+                    Object.keys(groups).sort().forEach(loc => {
+                        Object.keys(groups[loc]).sort().forEach(brand => {
+                            const d = groups[loc][brand];
+                            tableRows.push([loc, brand, d.total, d.normal, d.rusak, d.servis]);
+                        });
+                    });
+
+                    doc.autoTable({
+                        startY: 30,
+                        head: [['Lokasi', 'Merek', 'Total', 'Bagus', 'Rusak', 'Servis']],
+                        body: tableRows,
+                        theme: 'grid',
+                        headStyles: { fillColor: [40, 40, 40] }
+                    });
+                    doc.save(`Analisa_Aset_${cat}_${timestamp}.pdf`);
+                }
+                else if (type === 'word') {
+                    let html = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Analisa</title><style>table{border-collapse:collapse;width:100%}th,td{border:1px solid #000;padding:5px;text-align:center}th{background:#eee}</style></head><body><h3>Analisa Aset (${cat})</h3><table><thead><tr><th>Lokasi</th><th>Merek</th><th>Total</th><th>Bagus</th><th>Rusak</th><th>Servis</th></tr></thead><tbody>`;
+                    Object.keys(groups).sort().forEach(loc => {
+                        Object.keys(groups[loc]).sort().forEach(brand => {
+                            const d = groups[loc][brand];
+                            html += `<tr><td>${loc}</td><td>${brand}</td><td>${d.total}</td><td>${d.normal}</td><td style="color:red">${d.rusak}</td><td>${d.servis}</td></tr>`;
+                        });
+                    });
+                    html += `</tbody></table></body></html>`;
+                    const blob = new Blob([html], { type: 'application/msword' });
+                    saveAs(blob, `Analisa_Aset_${cat}_${timestamp}.doc`);
+                }
             },
 
             saveAsset: () => {
@@ -652,6 +700,7 @@
 
             syncData: () => api.fetch(),
 
+            // --- MAIN EXPORT (Data Aset) ---
             exportData: (type) => {
                 const data = state.data.assets;
                 if(data.length === 0) return Swal.fire('Data Kosong', 'Tidak ada aset untuk diexport', 'warning');
@@ -691,9 +740,7 @@
                     doc.save(`Laporan_Aset_${timestamp}.pdf`);
                 } 
                 else if (type === 'word') {
-                    let html = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
-                        <head><meta charset='utf-8'><title>Laporan Aset</title><style>body{font-family:Calibri}table{border-collapse:collapse;width:100%}th,td{border:1px solid #000;padding:8px}th{background:#f2f2f2}.rusak{color:red;font-weight:bold}</style></head><body>
-                        <h2>Laporan Maintenance Aset</h2><p>Tanggal: ${timestamp}</p><table><thead><tr><th>Lokasi</th><th>Aset / Brand</th><th>Kategori</th><th>Kondisi</th><th>Keterangan</th></tr></thead><tbody>`;
+                    let html = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Laporan Aset</title><style>body{font-family:Calibri}table{border-collapse:collapse;width:100%}th,td{border:1px solid #000;padding:8px}th{background:#f2f2f2}.rusak{color:red;font-weight:bold}</style></head><body><h2>Laporan Maintenance Aset</h2><p>Tanggal: ${timestamp}</p><table><thead><tr><th>Lokasi</th><th>Aset / Brand</th><th>Kategori</th><th>Kondisi</th><th>Keterangan</th></tr></thead><tbody>`;
                     data.sort((a,b) => (a.location || '').localeCompare(b.location || ''));
                     data.forEach(a => { html += `<tr><td>${a.location}</td><td>${a.brand} ${a.model || ''}</td><td>${a.category}</td><td class="${a.condition !== 'Normal'?'rusak':''}">${a.condition}</td><td>${a.issue || ''}</td></tr>`; });
                     html += `</tbody></table></body></html>`;
@@ -755,7 +802,7 @@
             },
             showExportMenu: () => {
                 Swal.fire({
-                    title: 'Export Laporan', html: `<p class="text-xs text-slate-500 mt-2">Data akan disesuaikan dengan filter terbaru.</p>`,
+                    title: 'Export Data Aset', html: `<p class="text-xs text-slate-500 mt-2">Data akan disesuaikan dengan filter tabel.</p>`,
                     showDenyButton: true, showCancelButton: true,
                     confirmButtonText: '<i class="fa-solid fa-file-excel"></i> Excel', denyButtonText: '<i class="fa-solid fa-file-pdf"></i> PDF', cancelButtonText: '<i class="fa-solid fa-file-word"></i> Word',
                     confirmButtonColor: '#10b981', denyButtonColor: '#ef4444', cancelButtonColor: '#2563eb'
@@ -763,6 +810,19 @@
                     if (result.isConfirmed) app.exportData('excel'); else if (result.isDenied) app.exportData('pdf'); else if (result.dismiss === Swal.DismissReason.cancel) app.exportData('word');
                 });
             },
+            
+            // --- V6.0: ANALYTICS EXPORT MENU ---
+            showAnalyticsExportMenu: () => {
+                Swal.fire({
+                    title: 'Export Analisa', html: `<p class="text-xs text-slate-500 mt-2">Laporan akan berisi tabel pengelompokan yang sedang ditampilkan.</p>`,
+                    showDenyButton: true, showCancelButton: true,
+                    confirmButtonText: '<i class="fa-solid fa-file-excel"></i> Excel', denyButtonText: '<i class="fa-solid fa-file-pdf"></i> PDF', cancelButtonText: '<i class="fa-solid fa-file-word"></i> Word',
+                    confirmButtonColor: '#10b981', denyButtonColor: '#ef4444', cancelButtonColor: '#2563eb'
+                }).then((result) => {
+                    if (result.isConfirmed) app.exportAnalytics('excel'); else if (result.isDenied) app.exportAnalytics('pdf'); else if (result.dismiss === Swal.DismissReason.cancel) app.exportAnalytics('word');
+                });
+            },
+
             updateBulkBar: () => document.getElementById('selected-count').innerText = state.ui.selectedIds.size
         };
 
