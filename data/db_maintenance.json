@@ -1286,6 +1286,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:57:15.052Z"
+    },
+    {
+      "id": "mkdhpbyg5pci0jtd82f",
+      "category": "AC",
+      "location": "Pos satpam mess",
+      "brand": "Lg 1/2 ",
+      "model": "1/2 pk",
+      "subtype": "Split Wall",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:57:32.488Z"
     }
   ],
   "schedules": [
