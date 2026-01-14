@@ -1104,6 +1104,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:50:47.227Z"
+    },
+    {
+      "id": "mkdhh3vbhvrnq8x2qr",
+      "category": "AC",
+      "location": "Ruang server",
+      "brand": "Samsung ",
+      "model": "1 pk",
+      "subtype": "Split Wall",
+      "condition": "Rusak",
+      "issue": "Mati total",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:51:08.759Z"
     }
   ],
   "schedules": [
