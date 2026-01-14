@@ -402,6 +402,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:48:17.528Z"
+    },
+    {
+      "id": "mkdf8tsuba61zxktz09",
+      "category": "AC",
+      "location": "Ruang kasubag hukum",
+      "brand": "Mcquay",
+      "model": "5 pj",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:48:43.230Z"
     }
   ],
   "schedules": [
