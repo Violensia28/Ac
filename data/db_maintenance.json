@@ -77,6 +77,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:17:19.975Z"
+    },
+    {
+      "id": "mkde7zlglxeazff7w6o",
+      "category": "AC",
+      "location": "Lantai 4 depan toilet",
+      "brand": "Mcquay",
+      "model": "5",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "Tidak hidup",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:20:04.468Z"
     }
   ],
   "schedules": [
