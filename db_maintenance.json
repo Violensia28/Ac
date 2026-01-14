@@ -1173,15 +1173,15 @@
     {
       "id": "mkdhkkt18jyo0ahwonr",
       "category": "AC",
-      "location": "Lorong lantai 1",
+      "location": "lantai 1",
       "brand": "Mcquay",
       "model": "3",
       "subtype": "Central",
-      "condition": "Perlu Servis",
+      "condition": "",
       "issue": "",
       "installDate": "",
       "serviceDate": "",
-      "updatedAt": "2026-01-14T03:53:50.678Z"
+      "updatedAt": "2026-01-14T13:45:17.848Z"
     },
     {
       "id": "mkdhkzxlajlcopih8qh",
