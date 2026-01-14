@@ -1182,6 +1182,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:53:50.678Z"
+    },
+    {
+      "id": "mkdhkzxlajlcopih8qh",
+      "category": "AC",
+      "location": "Ruang rapat lt 1",
+      "brand": "Mcquay",
+      "model": "5",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:54:10.282Z"
     }
   ],
   "schedules": [
