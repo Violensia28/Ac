@@ -315,6 +315,14 @@
   ],
   "schedules": [
     {
+      "id": "mkdewt5rxgkpn8z7cx9",
+      "desc": "Cek AC dan lampu",
+      "time": "09:00",
+      "prio": "Normal",
+      "completed": false,
+      "date": "2026-01-14"
+    },
+    {
       "id": "mkb00ztv3x1tqybs7fx",
       "desc": "bantuin joshua install pc",
       "time": "17:07",
