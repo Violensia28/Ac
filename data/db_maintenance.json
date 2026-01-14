@@ -1091,6 +1091,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:49:51.016Z"
+    },
+    {
+      "id": "mkdhgn97ag4jp709akt",
+      "category": "AC",
+      "location": "Ruang server ",
+      "brand": "Samsung",
+      "model": "2 pk",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:50:47.227Z"
     }
   ],
   "schedules": [
