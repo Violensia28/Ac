@@ -1351,6 +1351,17 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T06:11:42.864Z"
+    },
+    {
+      "id": "mkdxbicfzy0crf",
+      "category": "AC",
+      "location": "Ruang rapat sdm",
+      "brand": "tes",
+      "model": "as",
+      "subtype": "dsa",
+      "condition": "Normal",
+      "issue": "",
+      "updatedAt": "2026-01-14T09:36:54.059Z"
     }
   ],
   "schedules": [
