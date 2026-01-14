@@ -1117,6 +1117,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:51:08.759Z"
+    },
+    {
+      "id": "mkdhhn6rebb33puzjme",
+      "category": "AC",
+      "location": "Ruang cctv 2 pk",
+      "brand": "Panasonic ",
+      "model": "2 pk",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:51:33.795Z"
     }
   ],
   "schedules": [
