@@ -220,6 +220,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:30:21.633Z"
+    },
+    {
+      "id": "mkdemmc25undcwxqmbg",
+      "category": "AC",
+      "location": "Mcquay Aceh 2t 4 ujung dekat ruang kabid",
+      "brand": "Mcquay",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:31:27.122Z"
     }
   ],
   "schedules": [
