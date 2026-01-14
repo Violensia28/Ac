@@ -103,6 +103,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:21:02.851Z"
+    },
+    {
+      "id": "mkdeb6tsntli89054f",
+      "category": "AC",
+      "location": "Ruang rapat Aceh 3 lt 4",
+      "brand": "Gree",
+      "model": "5",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "Kotor tidak dingin",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:22:33.809Z"
     }
   ],
   "schedules": [
