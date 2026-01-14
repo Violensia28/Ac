@@ -38,6 +38,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:14:58.362Z"
+    },
+    {
+      "id": "mkde1um5sysqvcm6sfb",
+      "category": "AC",
+      "location": "Sharp ",
+      "brand": "Sharp",
+      "model": "1/2 ",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:15:18.077Z"
     }
   ],
   "schedules": [
