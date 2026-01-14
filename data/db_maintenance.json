@@ -1156,6 +1156,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:52:33.064Z"
+    },
+    {
+      "id": "mkdhj969j672yg2zycq",
+      "category": "AC",
+      "location": "Ruang umum",
+      "brand": "Mcquay",
+      "model": "5",
+      "subtype": "Central",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:52:48.945Z"
     }
   ],
   "schedules": [
