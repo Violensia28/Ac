@@ -727,6 +727,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:18:50.436Z"
+    },
+    {
+      "id": "mkdgbz8baxxvyhu4zi",
+      "category": "AC",
+      "location": "Ruang rapat keuangan",
+      "brand": "Samsung",
+      "model": "1 pk",
+      "subtype": "Split Wall",
+      "condition": "Normal",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:19:09.851Z"
     }
   ],
   "schedules": [
