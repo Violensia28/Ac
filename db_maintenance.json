@@ -419,15 +419,15 @@
     {
       "id": "mkdfctpoc60ikigquy",
       "category": "AC",
-      "location": "Depan ruang rapat Aceh 1 lt3",
-      "brand": "Lg inverter ",
+      "location": "Ruang kerja Aceh 1",
+      "brand": "Lg inverter",
       "model": "5pk",
       "subtype": "Central",
-      "condition": "Perlu Servis",
+      "condition": "",
       "issue": "Lampu sensor berkedip/modul",
       "installDate": "",
       "serviceDate": "",
-      "updatedAt": "2026-01-14T02:51:49.740Z"
+      "updatedAt": "2026-01-14T14:08:46.743Z"
     },
     {
       "id": "mkdfdp62pmdobtahpjn",
