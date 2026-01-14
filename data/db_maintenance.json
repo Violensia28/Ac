@@ -272,6 +272,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:34:26.884Z"
+    },
+    {
+      "id": "mkderjkownm8cvplw8g",
+      "category": "AC",
+      "location": "Ruang kerja Aceh 2 lt4 depan ruang rapat",
+      "brand": "Mcquay",
+      "model": "5pk",
+      "subtype": "Central",
+      "condition": "Rusak",
+      "issue": "Tidak hidup",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:35:16.824Z"
     }
   ],
   "schedules": [
