@@ -714,6 +714,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T03:18:23.236Z"
+    },
+    {
+      "id": "mkdgbk8zelwxn0ksshw",
+      "category": "AC",
+      "location": "Ruang keuangan ",
+      "brand": "Mcquay",
+      "model": "5pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T03:18:50.436Z"
     }
   ],
   "schedules": [
