@@ -532,6 +532,19 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T02:56:30.261Z"
+    },
+    {
+      "id": "mkdfjljc2t3md1lbtdy",
+      "category": "AC",
+      "location": "Di sebelah ruang Kabid 1 lt 4",
+      "brand": "Panasonic",
+      "model": "5 pk",
+      "subtype": "Central",
+      "condition": "Perlu Servis",
+      "issue": "",
+      "installDate": "",
+      "serviceDate": "",
+      "updatedAt": "2026-01-14T02:57:05.736Z"
     }
   ],
   "schedules": [
