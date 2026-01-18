@@ -1351,6 +1351,17 @@
       "installDate": "",
       "serviceDate": "",
       "updatedAt": "2026-01-14T06:11:42.864Z"
+    },
+    {
+      "id": "mkdv8tqy0ntete",
+      "category": "Light",
+      "location": "Lantai 4",
+      "brand": "LAMPU T",
+      "model": "",
+      "subtype": "84 box lampu",
+      "condition": "Normal",
+      "issue": "",
+      "updatedAt": "2026-01-18T06:52:02.293Z"
     }
   ],
   "schedules": [
